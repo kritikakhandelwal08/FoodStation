@@ -1,0 +1,104 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 2,
+      "name": "Rolls",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 3,
+      "name": "Pav Bhaji",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 4,
+      "name": "Momos",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 5,
+      "name": "North Indian",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 6,
+      "name": "Salad",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 7,
+      "name": "Dosa",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 8,
+      "name": "Idli",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 9,
+      "name": "Vada",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 10,
+      "name": "Chole Bhature",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 11,
+      "name": "Paneer Tikka",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 12,
+      "name": "Rajma Chawal",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 13,
+      "name": "Samosa",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 14,
+      "name": "Kachori",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 15,
+      "name": "Veg Biryani",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 16,
+      "name": "Aloo Paratha",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 17,
+      "name": "Malai Kofta",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 18,
+      "name": "Palak Paneer",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 19,
+      "name": "Dal Makhani",
+      "image": "/margarita-pizza.png"
+    },
+    {
+      "id": 20,
+      "name": "Aloo Gobi",
+      "image": "/margarita-pizza.png"
+    }
+  ]
+}

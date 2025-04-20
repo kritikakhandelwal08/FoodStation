@@ -1,0 +1,136 @@
+.kitchen-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.main-content {
+  max-width: 900px;
+  width: 100%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #444;
+  margin-top: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.recommended-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.recommended-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.recommended-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recommended-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.recommended-item h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.recommended-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Loading & Error Messages */
+p {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+
+  .recommended-list {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  .recommended-image {
+    height: 120px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+}
+/* KitchenPage.css */
+
+/* Style for the Add to Cart button */
+.add-to-cart {
+  background-color: #ff5722; /* A vibrant orange color */
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add hover effect to change color and scale the button */
+.add-to-cart:hover {
+  background-color: #e64a19; /* A slightly darker shade of orange */
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/* Optional: Add focus outline to make it more accessible */
+.add-to-cart:focus {
+  outline: 2px solid #ffb74d;
+  outline-offset: 4px;
+}
+
+/* Optional: Add animation when the button is clicked */
+.add-to-cart:active {
+  transform: scale(0.95); /* Slightly shrink the button on click */
+}

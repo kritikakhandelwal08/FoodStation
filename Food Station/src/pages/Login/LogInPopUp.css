@@ -1,0 +1,148 @@
+
+/* 
+.login-popup-title img{
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+} */
+
+
+
+
+
+/* Full-page background for the popup */
+.login-popup {
+    position: fixed; /* Changed from absolute to fixed to ensure it covers the entire viewport */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Increased z-index to ensure it's always on top */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    display: grid;
+    align-items: center; /* Ensure it's vertically centered */
+    justify-content: center; /* Ensure it's horizontally centered */
+    animation: fadeIn 0.5s ease; /* Smooth fade-in effect */
+}
+
+/* Popup container for login form */
+.login-popup-container {
+    width: clamp(330px, 23vw, 500px); /* Responsive width using clamp */
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 35px; /* Increased padding for better spacing */
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+}
+
+/* Title section with close button */
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-popup-title img {
+    width: 18px; /* Slightly increased size */
+    cursor: pointer;
+}
+
+/* Input fields styling */
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inputs input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 12px; /* Increased padding for better touch targets */
+    border-radius: 4px;
+    font-size: 15px; /* Slightly increased font size */
+    transition: border-color 0.3s ease;
+}
+
+.login-popup-inputs input:focus {
+    border-color: #ff6347; /* Tomato color on focus for consistency */
+}
+
+/* Submit button styling */
+.login-popup-container button {
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-popup-container button:hover {
+    background-color: #ff5030; /* Darker tomato shade on hover */
+}
+
+/* Checkbox and terms section */
+.login-popup-condition {
+    display: flex;
+    align-items: flex-start; /* Adjust alignment for checkbox */
+    gap: 8px;
+    margin-top: -10px;
+}
+
+.login-popup-condition h5 {
+    font-weight: 500;
+}
+
+.login-popup-condition input {
+    margin-top: 5px;
+}
+
+/* Additional paragraph styling */
+.login-popup p {
+    text-align: center;
+    margin-top: -10px; /* Adjust margin for consistency */
+}
+
+.login-popup p span {
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.password-input {
+    position: relative;
+  }
+  
+  .password-input input {
+    width: 100%;
+    padding-right: 40px; /* Give space for the icon */
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+  }
+  

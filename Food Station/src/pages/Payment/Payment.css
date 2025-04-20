@@ -1,0 +1,60 @@
+.payment-container {
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+  }
+
+  .payment-container h2 {
+    font-size: 28px;
+    color: #ff3b3b;
+  }
+
+  .payment-container p {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .payment-option {
+    margin-bottom: 20px;
+  }
+  
+  .payment-option label {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .upi-options {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .upi-options p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-icons img {
+    width: 30px;
+    margin-right: 5px;
+  }
+  
+  .continue-button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .continue-button:hover {
+    background-color: #ff3b3b;
+  }

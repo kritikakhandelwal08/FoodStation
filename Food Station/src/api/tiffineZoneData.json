@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Vegetable Biryani",
+      "price": 150,
+      "calories": 300,
+      "ingredients": ["Basmati rice", "Mixed vegetables", "Spices", "Herbs"],
+      "image": "/public/tiffine.png"
+    },
+    {
+      "id": 2,
+      "name": "Paneer Tikka",
+      "price": 200,
+      "calories": 250,
+      "ingredients": ["Paneer", "Yogurt", "Spices", "Bell peppers"],
+      "image": "/public/tiffine.png"
+    },
+    {
+      "id": 3,
+      "name": "Chickpea Salad",
+      "price": 100,
+      "calories": 150,
+      "ingredients": [
+        "Chickpeas",
+        "Cucumbers",
+        "Tomatoes",
+        "Onion",
+        "Lemon juice"
+      ],
+      "image": "/public/tiffine.png"
+    },
+    {
+      "id": 4,
+      "name": "Mango Lassi",
+      "price": 80,
+      "calories": 120,
+      "ingredients": ["Mango", "Yogurt", "Sugar", "Cardamom"],
+      "image": "/public/tiffine.png"
+    }
+  ]
+}

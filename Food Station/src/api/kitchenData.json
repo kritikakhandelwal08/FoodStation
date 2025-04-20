@@ -1,0 +1,126 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "menuItemId": 1,
+        "kitchenName": "Thali Express",
+        "name": "Paratha",
+        "portion": "2 pcs",
+        "price": 30,
+        "location": "Jail Circle",
+        "rating": 4.2,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 2,
+        "menuItemId": 1,
+        "kitchenName": "Home Diner",
+        "name": "Paratha Dinner",
+        "portion": "3 pcs",
+        "price": 40,
+        "location": "MG Road",
+        "rating": 4.5,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 3,
+        "menuItemId": 2,
+        "kitchenName": "Thali Express",
+        "name": "Paratha",
+        "portion": "2 pcs",
+        "price": 30,
+        "location": "Jail Circle",
+        "rating": 4.2,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 4,
+        "menuItemId": 2,
+        "kitchenName": "Thali Express",
+        "name": "Paratha",
+        "portion": "2 pcs",
+        "price": 30,
+        "location": "Jail Circle",
+        "rating": 4.2,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 5,
+        "menuItemId": 2,
+        "kitchenName": "Thali Express",
+        "name": "Paratha",
+        "portion": "2 pcs",
+        "price": 30,
+        "location": "Jail Circle",
+        "rating": 4.2,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 6,
+        "menuItemId": 2,
+        "kitchenName": "Thali Express",
+        "name": "Paratha",
+        "portion": "2 pcs",
+        "price": 30,
+        "location": "Jail Circle",
+        "rating": 4.2,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 7,
+        "menuItemId": 3,
+        "kitchenName": "Home Diner",
+        "name": "Paratha",
+        "portion": "3 pcs",
+        "price": 40,
+        "location": "MG Road",
+        "rating": 4.5,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 8,
+        "menuItemId": 3,
+        "kitchenName": "Thali Express",
+        "name": "Paratha",
+        "portion": "2 pcs",
+        "price": 30,
+        "location": "Jail Circle",
+        "rating": 4.2,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 9,
+        "menuItemId": 3,
+        "kitchenName": "Home Diner",
+        "name": "Paratha",
+        "portion": "3 pcs",
+        "price": 40,
+        "location": "MG Road",
+        "rating": 4.5,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 10,
+        "menuItemId": 4,
+        "kitchenName": "Thali Express",
+        "name": "Paratha",
+        "portion": "2 pcs",
+        "price": 30,
+        "location": "Jail Circle",
+        "rating": 4.2,
+        "image": "/public/paratha.png"
+      },
+      {
+        "id": 11,
+        "menuItemId": 4,
+        "kitchenName": "Home Diner",
+        "name": "Paratha",
+        "portion": "3 pcs",
+        "price": 40,
+        "location": "MG Road",
+        "rating": 4.5,
+        "image": "/public/paratha.png"
+      }
+    ]
+  }
+  

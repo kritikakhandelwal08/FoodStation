@@ -1,0 +1,78 @@
+.login-container {
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10 auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color:  #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h2 {
+    color: black;
+    margin: 20px 0;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  /* .close-btn {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+    } */
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .kitchen-login-btn {
+    padding: 10px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .kitchen-login-btn:hover {
+    background-color: #f62c2c;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  .terms input {
+      width: 25px;
+      aspect-ratio: 1;
+  }
+  
+  .terms label {
+      font-size: 14px;
+      font-weight: 200;
+  }

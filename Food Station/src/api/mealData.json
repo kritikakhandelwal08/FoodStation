@@ -1,0 +1,60 @@
+{
+  "kitchenMeals": [
+    {
+      "id": 1,
+      "name": "Paneer Masala",
+      "image": "/public/meal.png",
+      "price": 12.99,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Chana Masala",
+      "image": "/public/meal.png",
+      "price": 10.49,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Aloo Gobi",
+      "image": "/public/meal.png",
+      "price": 9.99,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Palak Paneer",
+      "image": "/public/meal.png",
+      "price": 11.49,
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Biryani",
+      "image": "/public/meal.png",
+      "price": 13.99,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "name": "Dal Tadka",
+      "image": "/public/meal.png",
+      "price": 8.99,
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "Masoor Dal",
+      "image": "/public/meal.png",
+      "price": 7.99,
+      "rating": 4.3
+    },
+    {
+      "id": 8,
+      "name": "Bhindi Masala",
+      "image": "/public/meal.png",
+      "price": 10.99,
+      "rating": 4.6
+    }
+  ]
+}

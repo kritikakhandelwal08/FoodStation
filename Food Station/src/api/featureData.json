@@ -1,0 +1,22 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "title": "Automated Packing",
+      "description": "100% Environment Friendly Packing",
+      "image": "/public/feature1.png"
+    },
+    {
+      "id": 2,
+      "title": "Packed With Love",
+      "description": "We Deliver the Best Experiences",
+      "image": "/public/tiffinimage.png"
+    },
+    {
+      "id": 3,
+      "title": "Serve Hot Appetite",
+      "description": "Promise to Deliver Within 30 Mins",
+      "image": "/public/feature3.png"
+    }
+  ]
+}
