@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const url = 'mongodb+srv://vanshita222003:Klawclaw_22@mitrc.onxuacg.mongodb.net/bloging'
+const url = 'YOUR MONGODB URL'
 export const connectDB = async () => {
     try {
         await mongoose.connect(url);
