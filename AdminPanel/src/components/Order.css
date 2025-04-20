@@ -1,0 +1,45 @@
+.orderpage{
+    margin-left: 50px;
+}
+
+.order-box{
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #F75959;
+    width: 40rem;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-box .delivery-info{
+    margin-top: 1rem;
+}
+
+.order-box img{
+    height: 3rem;
+}
+
+.order-box .status select{
+    width: 10rem;
+    background-color: #FEBBBB;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px
+}
+
+.order-box .status select option{
+    background-color: #FCE6E6;
+}
+
+.items{
+    display: flex;
+}
+
+
+
+
+
+
+
+

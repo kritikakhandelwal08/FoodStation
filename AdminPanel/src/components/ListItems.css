@@ -1,0 +1,126 @@
+/* .listitems{
+    margin-left: 50px;
+    padding-top: 68.5px;
+    padding-bottom: 70px;
+}
+
+.box{
+    margin-top: 1rem;
+    width: 60rem;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.box table{
+  width: 100%;
+  text-align: left;
+}
+
+
+.box table tr th{
+    width: 20%;
+}
+
+.box table tr td{
+    padding: 5px 0px;
+}
+
+ */
+
+ .listitems {
+    margin-left: 50px;
+    /* font-family: 'Arial', sans-serif; */
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    /* margin-bottom: 1.5rem; */
+}
+
+.box {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 60rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.box table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.box table th, .box table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap; /* Prevents text from wrapping */
+    text-align: center;
+}
+
+.box table th {
+    background-color: #F75959;
+    color: white;
+    font-weight: bold;
+}
+
+.box table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.box table td {
+    color: #555;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.box table td:last-child {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ListItems.css */
+.product-image {
+    width: 55px;    /* Set the width */
+    height: 55px;   /* Set the height */
+    object-fit: cover;  /* Keep the image cropped to fit within the dimensions */
+    border-radius: 8px; /* Optional styling */
+  }
+  
+
+.box table td:last-child:hover {
+    color: #FF5151;
+}
+
+/* Ensures each column has appropriate width */
+.box table th:nth-child(1),
+.box table td:nth-child(1) {
+    width: 15%;
+}
+
+.box table th:nth-child(2),
+.box table td:nth-child(2) {
+    width: 25%;
+}
+
+.box table th:nth-child(3),
+.box table td:nth-child(3),
+.box table th:nth-child(4),
+.box table td:nth-child(4) {
+    width: 15%;
+}
+
+.box table th:nth-child(5),
+.box table td:nth-child(5) {
+    width: 15%;
+}
+
+.box table th:nth-child(6),
+.box table td:nth-child(6) {
+    width: 15%;
+}
+

@@ -1,0 +1,207 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 90vh;
+}
+
+header{
+    padding: 15px 20px;
+}
+
+header span{
+    color: #FF0000;
+}
+
+hr{
+    background-color: #F75959;
+    height: 3px;
+    border: 0;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.panel .choice{
+    width: 17%;
+    height: 100%;
+    border-right: 3px solid #F75959;
+    position: relative;
+}
+
+.panel .choice-detail{
+    width: 83%;
+}
+
+.panel .choice .choices{
+    margin-top: 6rem;
+}
+
+.panel .choice .active {
+    background-color: rgb(235, 153, 153); 
+    border: 0; 
+    color: rgb(255, 255, 255);
+    width: 65%;
+    border-radius: 5px 0 0 5px;
+    height: 4rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    border-right: 0;
+}
+
+.panel .choice .choices img{
+    width: 20%;
+}
+
+.panel .choice .choices h3{
+    margin-left: 10px;
+    color: black;
+}
+
+.panel .choice .add-item{
+    width: 65%;
+    border-radius: 5px 0 0 5px;
+    height: 4rem;
+    background-color: white;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    border: 2px solid black;
+    border-right: 0;
+}
+
+
+.panel .choice .list-item{
+    width: 65%;
+    border-radius: 5px 0 0 5px;
+    height: 4rem;
+    background-color: white;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    border: 2px solid black;
+    border-right: 0;
+    margin-top: 7rem;
+}
+
+.panel .choice .order{
+    width: 65%;
+    border-radius: 5px 0 0 5px;
+    height: 4rem;
+    background-color: white;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    border: 2px solid black;
+    border-right: 0;
+    margin-top: 14rem;
+}
+
+.choice-detail{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+ */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh; /* Ensure container height is full viewport */
+}
+
+header {
+  padding: 15px 20px;
+}
+
+header span {
+  color: #FF0000;
+}
+
+hr {
+  background-color: #F75959;
+  height: 3px;
+  border: 0;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  min-height: 90vh; /* Allow flexbox to handle height */
+}
+
+.panel .choice {
+  width: 17%;
+  border-right: 3px solid #F75959;
+  display: flex;
+  justify-content: end;
+  flex-shrink: 0; /* Ensure sidebar doesn't shrink */
+}
+
+.panel .choice-detail {
+  width: 83%;
+  padding-top: 60px;
+  padding-bottom: 53px;
+}
+
+.panel .choices {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 2rem; /* Adds space between the items */
+}
+
+.panel .choices a {
+  text-decoration: none;
+}
+
+.panel .menu-item {
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+  height: 4rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-right: 0;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.panel .menu-item.active {
+  border: 2px solid rgb(235, 153, 153);
+  background-color: rgb(235, 153, 153); /* Red color */
+  border: 0;
+  color: white;
+}
+
+.panel .choices img {
+  width: 20%;
+}
+
+.panel .choices h3 {
+  margin-left: 10px;
+  color: black;
+}
